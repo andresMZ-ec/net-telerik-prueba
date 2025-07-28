@@ -1,0 +1,341 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+APP_TELERIK
+</name>
+</assembly>
+<members>
+<member name="T:APP_TELERIK.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:APP_TELERIK.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:APP_TELERIK.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="F:APP_TELERIK.add_grid_aguaje._RadAjaxLoadingPanel1">
+<summary>
+Control RadAjaxLoadingPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.add_grid_aguaje._RadAjaxPanel1">
+<summary>
+Control RadAjaxPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.add_grid_aguaje._rpLayout">
+<summary>
+Control rpLayout.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.add_grid_aguaje._cboxSelectPeriodo">
+<summary>
+Control cboxSelectPeriodo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.add_grid_aguaje._rpMeses">
+<summary>
+Control rpMeses.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.aguaje._rwModalAggAguaje">
+<summary>
+Control rwModalAggAguaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.aguaje._rpLayoutMain">
+<summary>
+Control rpLayoutMain.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.aguaje._btnAggAguaje">
+<summary>
+Control btnAggAguaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.aguaje._AddAguaje">
+<summary>
+Control AddAguaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.control_area_aguaje._RadAjaxPanel1">
+<summary>
+Control RadAjaxPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.control_area_aguaje._rpLayoutForm">
+<summary>
+Control rpLayoutForm.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.control_area_aguaje._cboxSelectPeriodo">
+<summary>
+Control cboxSelectPeriodo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.control_area_aguaje._rpPrueba">
+<summary>
+Control rpPrueba.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.control_area_aguaje._rpMeses">
+<summary>
+Control rpMeses.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.control_area_aguaje._RadAjaxLoadingPanel1">
+<summary>
+Control RadAjaxLoadingPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK._Default._RadStyleSheetManager1">
+<summary>
+Control RadStyleSheetManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK._Default._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK._Default._RadScriptManager1">
+<summary>
+Control RadScriptManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK._Default._RadAjaxManager1">
+<summary>
+Control RadAjaxManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK._Default._buttonPrueba">
+<summary>
+Control buttonPrueba.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK._Default._AddAguaje">
+<summary>
+Control AddAguaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.InicioSesion._lblTxtCorreo">
+<summary>
+Control lblTxtCorreo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.InicioSesion._txtCorreo">
+<summary>
+Control txtCorreo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.InicioSesion._errorTxtCorreo">
+<summary>
+Control errorTxtCorreo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.InicioSesion._lblContrasema">
+<summary>
+Control lblContrasema.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.InicioSesion._txtContrasena">
+<summary>
+Control txtContrasena.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.InicioSesion._errorTxtContrasena">
+<summary>
+Control errorTxtContrasena.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.InicioSesion._LiteralLoginMensaje">
+<summary>
+Control LiteralLoginMensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.Site._Head">
+<summary>
+Control Head.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.Site._RadScriptManager">
+<summary>
+Control RadScriptManager.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.Site._RadSkinManager1">
+<summary>
+Control RadSkinManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK.Site._MainContent">
+<summary>
+Control MainContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK._Login._HeadContent">
+<summary>
+Control HeadContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK._Login._RadScriptManager1">
+<summary>
+Control RadScriptManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:APP_TELERIK._Login._MainContent">
+<summary>
+Control MainContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>

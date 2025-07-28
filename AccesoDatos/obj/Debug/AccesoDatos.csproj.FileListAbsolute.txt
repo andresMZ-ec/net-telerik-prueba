@@ -1,0 +1,2 @@
+C:\Users\torne\source\repos\AppPruebaVB\AccesoDatos\obj\Debug\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\torne\source\repos\AppPruebaVB\AccesoDatos\obj\Debug\AccesoDatos.csproj.CoreCompileInputs.cache

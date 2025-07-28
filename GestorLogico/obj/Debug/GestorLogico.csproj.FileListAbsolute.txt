@@ -1,0 +1,2 @@
+C:\Users\torne\source\repos\AppPruebaVB\GestorLogico\obj\Debug\GestorLogico.csproj.AssemblyReference.cache
+C:\Users\torne\source\repos\AppPruebaVB\GestorLogico\obj\Debug\GestorLogico.csproj.CoreCompileInputs.cache

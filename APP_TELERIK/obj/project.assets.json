@@ -1,0 +1,201 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "jQuery/3.7.1": {
+        "type": "package"
+      },
+      "Telerik.Licensing/1.6.9": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Telerik.Licensing.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Telerik.Licensing.Runtime.dll": {}
+        },
+        "build": {
+          "build/Telerik.Licensing.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "jQuery/3.7.1": {
+        "type": "package"
+      },
+      "Telerik.Licensing/1.6.9": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Telerik.Licensing.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Telerik.Licensing.Runtime.dll": {}
+        },
+        "build": {
+          "build/Telerik.Licensing.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "jQuery/3.7.1": {
+        "type": "package"
+      },
+      "Telerik.Licensing/1.6.9": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Telerik.Licensing.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Telerik.Licensing.Runtime.dll": {}
+        },
+        "build": {
+          "build/Telerik.Licensing.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "jQuery/3.7.1": {
+        "type": "package"
+      },
+      "Telerik.Licensing/1.6.9": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Telerik.Licensing.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Telerik.Licensing.Runtime.dll": {}
+        },
+        "build": {
+          "build/Telerik.Licensing.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "jQuery/3.7.1": {
+      "sha512": "rF8hnQxmBMlIspf8VN72bALtmIpKx6hKRpUdTOkp/8JzfF8KgNqHut5lOy9kFGvFIStumCqJ+PBxpI9gxpRYfQ==",
+      "type": "package",
+      "path": "jquery/3.7.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-3.7.1-vsdoc.js",
+        "Content/Scripts/jquery-3.7.1.js",
+        "Content/Scripts/jquery-3.7.1.min.js",
+        "Content/Scripts/jquery-3.7.1.min.map",
+        "Content/Scripts/jquery-3.7.1.slim.js",
+        "Content/Scripts/jquery-3.7.1.slim.min.js",
+        "Content/Scripts/jquery-3.7.1.slim.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-3.7.1.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.3.7.1.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
+    "Telerik.Licensing/1.6.9": {
+      "sha512": "e3JEZujLOmd06yjg5E/Z44L+aLxYzHLOdpJefAAQ1U5eTm7k24hNhCgSUkIlY7wTxKTR+wxgPKTugGcugJA5yA==",
+      "type": "package",
+      "path": "telerik.licensing/1.6.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LicenseAgreements/EULA.txt",
+        "README.md",
+        "build/Telerik.Licensing.targets",
+        "images/progress-64x64.png",
+        "lib/net462/Telerik.Licensing.Runtime.dll",
+        "lib/net6.0/Telerik.Licensing.Runtime.deps.json",
+        "lib/net6.0/Telerik.Licensing.Runtime.dll",
+        "lib/net7.0/Telerik.Licensing.Runtime.deps.json",
+        "lib/net7.0/Telerik.Licensing.Runtime.dll",
+        "lib/net8.0/Telerik.Licensing.Runtime.deps.json",
+        "lib/net8.0/Telerik.Licensing.Runtime.dll",
+        "lib/net9.0/Telerik.Licensing.Runtime.deps.json",
+        "lib/net9.0/Telerik.Licensing.Runtime.dll",
+        "lib/netstandard2.0/Telerik.Licensing.Runtime.deps.json",
+        "lib/netstandard2.0/Telerik.Licensing.Runtime.dll",
+        "tasks/netstandard2.0/System.Buffers.dll",
+        "tasks/netstandard2.0/System.CodeDom.dll",
+        "tasks/netstandard2.0/System.Collections.Immutable.dll",
+        "tasks/netstandard2.0/System.Management.dll",
+        "tasks/netstandard2.0/System.Memory.dll",
+        "tasks/netstandard2.0/System.Numerics.Vectors.dll",
+        "tasks/netstandard2.0/System.Reflection.Metadata.dll",
+        "tasks/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "tasks/netstandard2.0/Telerik.Licensing.Tasks.deps.json",
+        "tasks/netstandard2.0/Telerik.Licensing.Tasks.dll",
+        "telerik.licensing.1.6.9.nupkg.sha512",
+        "telerik.licensing.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Telerik.Licensing >= *",
+      "jQuery >= 3.7.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\torne\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\torne\\source\\repos\\AppPruebaVB\\APP_TELERIK\\APP_TELERIK.vbproj",
+      "projectName": "APP_TELERIK",
+      "projectPath": "C:\\Users\\torne\\source\\repos\\AppPruebaVB\\APP_TELERIK\\APP_TELERIK.vbproj",
+      "packagesPath": "C:\\Users\\torne\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\torne\\source\\repos\\AppPruebaVB\\APP_TELERIK\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\torne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "Telerik.Licensing": {
+            "target": "Package",
+            "version": "[*, )"
+          },
+          "jQuery": {
+            "target": "Package",
+            "version": "[3.7.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

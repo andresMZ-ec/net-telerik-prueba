@@ -1,0 +1,51 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.Master.vb" Inherits="APP_TELERIK.Site" %>
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><%: Page.Title %> - DomusData</title>
+
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <telerik:RadScriptManager ID="RadScriptManager" runat="server">
+        </telerik:RadScriptManager>
+        <telerik:RadSkinManager ID="RadSkinManager1" runat="server" Skin="Bootstrap" />
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">Nombre de la aplicación</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/">Inicio</a></li>
+                        <li><a runat="server" href="~/About">Acerca de</a></li>
+                        <li><a runat="server" href="~/Contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Mi Aplicación ASP.NET</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

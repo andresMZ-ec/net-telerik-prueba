@@ -1,0 +1,26 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="~/Login.Master.vb" Inherits="APP_TELERIK._Login" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><%: Page.Title %></title>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+            <Scripts>
+            </Scripts>
+        </telerik:RadScriptManager>
+
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

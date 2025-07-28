@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\torne\\source\\repos\\AppPruebaVB\\APP_TELERIK\\APP_TELERIK.vbproj": {}
+  },
+  "projects": {
+    "C:\\Users\\torne\\source\\repos\\AppPruebaVB\\APP_TELERIK\\APP_TELERIK.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\torne\\source\\repos\\AppPruebaVB\\APP_TELERIK\\APP_TELERIK.vbproj",
+        "projectName": "APP_TELERIK",
+        "projectPath": "C:\\Users\\torne\\source\\repos\\AppPruebaVB\\APP_TELERIK\\APP_TELERIK.vbproj",
+        "packagesPath": "C:\\Users\\torne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\torne\\source\\repos\\AppPruebaVB\\APP_TELERIK\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\torne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Telerik.Licensing": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

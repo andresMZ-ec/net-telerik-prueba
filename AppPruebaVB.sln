@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.36107.64
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "APP_TELERIK", "APP_TELERIK\APP_TELERIK.vbproj", "{60130D61-1175-447C-95CC-81916BAB2C65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "AccesoDatos\AccesoDatos.csproj", "{442907C5-2BB0-40D3-BCF0-8889C254D824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIREST", "APIREST\APIREST.csproj", "{FBF6DD5C-0F68-4A30-AF4A-E54FA7D9E999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModeloNegocio", "ModeloNeegocio\ModeloNegocio.csproj", "{1E252AAD-278D-4B7A-9DFD-46EF4B8876A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesNegocio", "ClaseNegocio\ClasesNegocio.csproj", "{ECD6856E-6DE7-48FE-BAA5-1A0DE41BEA54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorLogico", "GestorLogico\GestorLogico.csproj", "{56346E04-C998-4904-B2FD-06B6C3EC063A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60130D61-1175-447C-95CC-81916BAB2C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60130D61-1175-447C-95CC-81916BAB2C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60130D61-1175-447C-95CC-81916BAB2C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60130D61-1175-447C-95CC-81916BAB2C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442907C5-2BB0-40D3-BCF0-8889C254D824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442907C5-2BB0-40D3-BCF0-8889C254D824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442907C5-2BB0-40D3-BCF0-8889C254D824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442907C5-2BB0-40D3-BCF0-8889C254D824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF6DD5C-0F68-4A30-AF4A-E54FA7D9E999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF6DD5C-0F68-4A30-AF4A-E54FA7D9E999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF6DD5C-0F68-4A30-AF4A-E54FA7D9E999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF6DD5C-0F68-4A30-AF4A-E54FA7D9E999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E252AAD-278D-4B7A-9DFD-46EF4B8876A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E252AAD-278D-4B7A-9DFD-46EF4B8876A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E252AAD-278D-4B7A-9DFD-46EF4B8876A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E252AAD-278D-4B7A-9DFD-46EF4B8876A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD6856E-6DE7-48FE-BAA5-1A0DE41BEA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD6856E-6DE7-48FE-BAA5-1A0DE41BEA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD6856E-6DE7-48FE-BAA5-1A0DE41BEA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD6856E-6DE7-48FE-BAA5-1A0DE41BEA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56346E04-C998-4904-B2FD-06B6C3EC063A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56346E04-C998-4904-B2FD-06B6C3EC063A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56346E04-C998-4904-B2FD-06B6C3EC063A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56346E04-C998-4904-B2FD-06B6C3EC063A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4A0D3CF-CB53-4C22-AF03-F6F6B916C3AE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{60130D61-1175-447C-95CC-81916BAB2C65}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>APP_TELERIK</RootNamespace>
+    <AssemblyName>APP_TELERIK</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>APP_TELERIK.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>APP_TELERIK.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="Telerik.Licensing.Runtime, Version=1.6.5.0, Culture=neutral, PublicKeyToken=98bb5b04e55c09ef, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCAJAX\2025.2.609.462\Telerik.Licensing.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.Design">
+      <HintPath>..\lib\RCAJAX\2025.2.609.462\Telerik.Web.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.Spreadsheet">
+      <HintPath>..\lib\RCAJAX\2025.2.609.462\AdditionalLibraries\Bin462\Telerik.Web.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\lib\RCAJAX\2025.2.609.462\Telerik.Web.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>..\lib\RCAJAX\2025.2.609.462\Telerik.Web.UI.Skins.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Core, Version=2025.2.520.462, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCAJAX\2025.2.609.462\AdditionalLibraries\Bin462\Telerik.Windows.Documents.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.DrawingML, Version=2025.2.520.462, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCAJAX\2025.2.609.462\AdditionalLibraries\Bin462\Telerik.Windows.Documents.DrawingML.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow, Version=2025.2.520.462, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCAJAX\2025.2.609.462\AdditionalLibraries\Bin462\Telerik.Windows.Documents.Flow.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet, Version=2025.2.520.462, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCAJAX\2025.2.609.462\AdditionalLibraries\Bin462\Telerik.Windows.Documents.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml, Version=2025.2.520.462, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCAJAX\2025.2.609.462\AdditionalLibraries\Bin462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="jQuery">
+      <Version>3.7.1</Version>
+    </PackageReference>
+    <PackageReference Include="Telerik.Licensing" Version="*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="add_grid_aguaje.ascx.designer.vb">
+      <DependentUpon>add_grid_aguaje.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="add_grid_aguaje.ascx.vb">
+      <DependentUpon>add_grid_aguaje.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aguaje.aspx.designer.vb">
+      <DependentUpon>aguaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aguaje.aspx.vb">
+      <DependentUpon>aguaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="control_area_aguaje.ascx.designer.vb">
+      <DependentUpon>control_area_aguaje.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="control_area_aguaje.ascx.vb">
+      <DependentUpon>control_area_aguaje.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InicioSesion.aspx.designer.vb">
+      <DependentUpon>InicioSesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InicioSesion.aspx.vb">
+      <DependentUpon>InicioSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.Master.designer.vb">
+      <DependentUpon>Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.Master.vb">
+      <DependentUpon>Login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TelerikLicense.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="add_grid_aguaje.ascx" />
+    <Content Include="aguaje.aspx" />
+    <Content Include="App_Data\RadCaptcha\0.wav" />
+    <Content Include="App_Data\RadCaptcha\1.wav" />
+    <Content Include="App_Data\RadCaptcha\2.wav" />
+    <Content Include="App_Data\RadCaptcha\3.wav" />
+    <Content Include="App_Data\RadCaptcha\4.wav" />
+    <Content Include="App_Data\RadCaptcha\5.wav" />
+    <Content Include="App_Data\RadCaptcha\6.wav" />
+    <Content Include="App_Data\RadCaptcha\7.wav" />
+    <Content Include="App_Data\RadCaptcha\8.wav" />
+    <Content Include="App_Data\RadCaptcha\9.wav" />
+    <Content Include="App_Data\RadCaptcha\A.wav" />
+    <Content Include="App_Data\RadCaptcha\B.wav" />
+    <Content Include="App_Data\RadCaptcha\C.wav" />
+    <Content Include="App_Data\RadCaptcha\D.wav" />
+    <Content Include="App_Data\RadCaptcha\E.wav" />
+    <Content Include="App_Data\RadCaptcha\F.wav" />
+    <Content Include="App_Data\RadCaptcha\G.wav" />
+    <Content Include="App_Data\RadCaptcha\H.wav" />
+    <Content Include="App_Data\RadCaptcha\I.wav" />
+    <Content Include="App_Data\RadCaptcha\J.wav" />
+    <Content Include="App_Data\RadCaptcha\K.wav" />
+    <Content Include="App_Data\RadCaptcha\L.wav" />
+    <Content Include="App_Data\RadCaptcha\M.wav" />
+    <Content Include="App_Data\RadCaptcha\N.wav" />
+    <Content Include="App_Data\RadCaptcha\O.wav" />
+    <Content Include="App_Data\RadCaptcha\P.wav" />
+    <Content Include="App_Data\RadCaptcha\Q.wav" />
+    <Content Include="App_Data\RadCaptcha\R.wav" />
+    <Content Include="App_Data\RadCaptcha\S.wav" />
+    <Content Include="App_Data\RadCaptcha\T.wav" />
+    <Content Include="App_Data\RadCaptcha\U.wav" />
+    <Content Include="App_Data\RadCaptcha\V.wav" />
+    <Content Include="App_Data\RadCaptcha\W.wav" />
+    <Content Include="App_Data\RadCaptcha\X.wav" />
+    <Content Include="App_Data\RadCaptcha\Y.wav" />
+    <Content Include="App_Data\RadCaptcha\Z.wav" />
+    <Content Include="App_Data\RadSpell\de-DE.tdf" />
+    <Content Include="App_Data\RadSpell\en-US.tdf" />
+    <Content Include="App_Data\RadSpell\fr-FR.tdf" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="control_area_aguaje.ascx" />
+    <Content Include="InicioSesion.aspx" />
+    <Content Include="web.config" />
+    <Content Include="Site.Master" />
+    <Content Include="Login.Master" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49646</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49646/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties UseAjaxifiedTemplates="True" UseJQuerySupport="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
