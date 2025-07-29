@@ -50,11 +50,11 @@ Partial Public Class add_grid_aguaje
     Protected WithEvents cboxSelectPeriodo As Global.Telerik.Web.UI.RadComboBox
 
     '''<summary>
-    '''Control rpMeses.
+    '''Control rgAguajes.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents rpMeses As Global.System.Web.UI.WebControls.Repeater
+    Protected WithEvents rgAguajes As Global.Telerik.Web.UI.RadGrid
 End Class

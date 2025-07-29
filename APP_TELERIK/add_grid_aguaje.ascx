@@ -52,57 +52,81 @@
             </telerik:LayoutRow>
             <telerik:LayoutRow>
                 <Content>
-                    <asp:Repeater ID="rpMeses" runat="server">
-                        <ItemTemplate>
-                            <div class="month-container">
-                                <div class="month-header">
-                                    <span class="month-title"><%# Container.DataItem %></span> <%-- Nombre del mes --%>
-                                    <telerik:RadButton
-                                        ID="btnAddRow"
-                                        runat="server"
-                                        Text="Añadir Aguaje"
-                                        Skin="Material"
-                                        AutoPostBack="true"
-                                        CommandName="AddRow"
-                                        CommandArgument="<%# Container.DataItem %>"
-                                        OnCommand="btnAddRow_Command" />
-                                </div>
-                            </div>
-                            <div class="telerik-grid-container">
-                                <telerik:RadGrid
-                                    ID="rgAguajes"
-                                    runat="server"
-                                    AllowPaging="false"
-                                    AllowSorting="false"
-                                    AutoGenerateColumns="false"
-                                    AllowFilteringByColumn="false"
-                                    OnNeedDataSource="rgAguajes_NeedDataSource"
-                                    OnUpdateCommand="rgAguajes_UpdateCommand"
-                                    OnItemCommand="rgAguajes_ItemCommand"
-                                    Skin="Material"
-                                    ShowFooter="false">
-                                    <MasterTableView EditMode="InPlace" DataKeyNames="id">
-                                        <Columns>
-                                            <telerik:GridTemplateColumn HeaderText="Fecha Inicio" UniqueName="FechaInicio">
-                                                <ItemTemplate>
-                                                    <asp:Label ID="lblFechaInicio" runat="server" Text="<%# Eval("fecha_inicio", "{0:dd/MM/yyyy}") %>" />
-                                                </ItemTemplate>
-                                                <EditItemTemplate>
-                                                    <telerik:RadDatePicker ID="rdpFechaInicio" runat="server" DateInput-DateFormat="dd/MM/yyyy"
-                                                        SelectedDate='<%# Bind("fecha_inicio") %>'>
-                                                        <Calendar runat="server" />
-                                                    </telerik:RadDatePicker>
-                                                </EditItemTemplate>
-                                            </telerik:GridTemplateColumn>
+                    <telerik:RadGrid ID="rgAguajes" runat="server" AllowPaging="False" AutoGenerateColumns="False"
+                        OnNeedDataSource="rgAguajes_NeedDataSource" OnUpdateCommand="rgAguajes_UpdateCommand"
+                        OnItemCommand="rgAguajes_ItemCommand" OnDeleteCommand="rgAguajes_DeleteCommand"
+                        OnItemDataBound="rgAguajes_ItemDataBound"
+                        Skin="Material" ShowFooter="false" AllowFilteringByColumn="false" AllowSorting="false"
+                        AllowAutomaticUpdates="false" AllowAutomaticDeletes="false" AllowAutomaticInserts="false"
+                        AllowGrouping="True">
+                        <%-- Habilitar agrupación --%>
 
-                                            <telerik:GridButtonColumn CommandName="Edit" Text="Editar" UniqueName="EditColumn" HeaderStyle-Width="70px"></telerik:GridButtonColumn>
-                                            <telerik:GridButtonColumn CommandName="Delete" Text="Eliminar" UniqueName="DeleteColumn" HeaderStyle-Width="70px" ConfirmText="¿Está seguro de que desea eliminar este registro?"></telerik:GridButtonColumn>
-                                        </Columns>
-                                    </MasterTableView>
-                                </telerik:RadGrid>
-                            </div>
-                        </ItemTemplate>
-                    </asp:Repeater>
+                        <MasterTableView EditMode="InPlace" DataKeyNames="Id">
+                            <GroupByExpressions>
+                                <%-- Agrupar por la propiedad 'MesNombre' --%>
+                                <telerik:GridGroupByExpression>
+                                    <SelectFields>
+                                        <telerik:GridGroupByField FieldName="MesNombre" HeaderText="Mes" SortOrder="Ascending" />
+                                    </SelectFields>
+                                    <GroupByFields>
+                                        <telerik:GridGroupByField FieldName="MesNumero" SortOrder="Ascending" />
+                                        <%-- Usamos MesNumero para ordenar correctamente --%>
+                                    </GroupByFields>
+                                </telerik:GridGroupByExpression>
+                            </GroupByExpressions>
+
+                            <GroupHeaderTemplate>
+                                <%-- Plantilla para el encabezado de cada grupo (mes) --%>
+                                <div class="group-header-content">
+                                    <span style="font-size: 1.2em; font-weight: bold;"><%# Eval("MesNombre") %></span>
+                                    <telerik:RadButton ID="btnAddRowForMonth" runat="server" Text="Añadir Aguaje"
+                                        CommandName="AddRowForMonth" CommandArgument='<%# Eval("MesNumero") %>' AutoPostBack="true"
+                                        CssClass="add-row-button" Skin="Material" />
+                                </div>
+                            </GroupHeaderTemplate>
+
+                            <Columns>
+                                <telerik:GridTemplateColumn HeaderText="Fecha Inicio" UniqueName="FechaInicioColumn" DataField="FechaInicio">
+                                    <ItemTemplate>
+                                        <asp:Label ID="lblFechaInicio" runat="server" Text='<%# Eval("FechaInicio", "{0:dd/MM/yyyy}") %>'></asp:Label>
+                                    </ItemTemplate>
+                                    <EditItemTemplate>
+                                        <telerik:RadDatePicker ID="rdpFechaInicioEdit" runat="server" DateInput-DateFormat="dd/MM/yyyy"
+                                            SelectedDate='<%# Bind("FechaInicio") %>'>
+                                            <Calendar runat="server" />
+                                        </telerik:RadDatePicker>
+                                    </EditItemTemplate>
+                                </telerik:GridTemplateColumn>
+
+                                <telerik:GridTemplateColumn HeaderText="Fecha Fin" UniqueName="FechaFinColumn" DataField="FechaFin">
+                                    <ItemTemplate>
+                                        <asp:Label ID="lblFechaFin" runat="server" Text='<%# Eval("FechaFin", "{0:dd/MM/yyyy}") %>'></asp:Label>
+                                    </ItemTemplate>
+                                    <EditItemTemplate>
+                                        <telerik:RadDatePicker ID="rdpFechaFinEdit" runat="server" DateInput-DateFormat="dd/MM/yyyy"
+                                            SelectedDate='<%# Bind("FechaFin") %>'>
+                                            <Calendar runat="server" />
+                                        </telerik:RadDatePicker>
+                                    </EditItemTemplate>
+                                </telerik:GridTemplateColumn>
+
+                                <telerik:GridTemplateColumn HeaderText="Tipo Aguaje" UniqueName="TipoAguajeColumn" DataField="TipoAguaje">
+                                    <ItemTemplate>
+                                        <asp:Label ID="lblTipoAguaje" runat="server" Text='<%# Eval("TipoAguaje") %>'></asp:Label>
+                                    </ItemTemplate>
+                                    <EditItemTemplate>
+                                        <telerik:RadComboBox ID="rcbTipoAguajeEdit" runat="server" DataTextField="Text" DataValueField="Value"
+                                            SelectedValue='<%# Bind("TipoAguaje") %>' AppendDataBoundItems="true" OnDataBound="rcbTipoAguajeEdit_DataBound">
+                                            <%-- Los items se cargarán en code-behind --%>
+                                        </telerik:RadComboBox>
+                                    </EditItemTemplate>
+                                </telerik:GridTemplateColumn>
+
+                                <telerik:GridButtonColumn CommandName="Edit" Text="Editar" UniqueName="EditColumn" HeaderStyle-Width="70px"></telerik:GridButtonColumn>
+                                <telerik:GridButtonColumn CommandName="Delete" Text="Eliminar" UniqueName="DeleteColumn" HeaderStyle-Width="70px" ConfirmText="¿Está seguro de que desea eliminar este registro?"></telerik:GridButtonColumn>
+                            </Columns>
+                        </MasterTableView>
+                    </telerik:RadGrid>
                 </Content>
             </telerik:LayoutRow>
         </Rows>
