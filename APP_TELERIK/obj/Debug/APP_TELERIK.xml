@@ -58,9 +58,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:APP_TELERIK.add_grid_aguaje._rpMeses">
+<member name="F:APP_TELERIK.add_grid_aguaje._rgAguajes">
 <summary>
-Control rpMeses.
+Control rgAguajes.
 </summary>
 <remarks>
 Campo generado automáticamente.

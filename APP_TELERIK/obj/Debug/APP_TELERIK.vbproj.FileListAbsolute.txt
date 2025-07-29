@@ -1,3 +1,8 @@
+C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\APP_TELERIK.vbproj.AssemblyReference.cache
+C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\APP_TELERIK.Resources.resources
+C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\APP_TELERIK.vbproj.GenerateResource.cache
+C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\APP_TELERIK.vbproj.CoreCompileInputs.cache
+C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\Telerik.Licensing.LicenseInfo.vb
 C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\bin\APP_TELERIK.dll.config
 C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\bin\APP_TELERIK.dll
 C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\bin\APP_TELERIK.pdb
@@ -21,12 +26,7 @@ C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\bin\Telerik.Windows.Document
 C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\bin\Telerik.Windows.Documents.Flow.xml
 C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\bin\Telerik.Windows.Documents.Spreadsheet.xml
 C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
-C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\APP_TELERIK.Resources.resources
-C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\APP_TELERIK.vbproj.GenerateResource.cache
-C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\APP_TELERIK.vbproj.CoreCompileInputs.cache
-C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\Telerik.Licensing.LicenseInfo.vb
-C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\APP_TELERIK.vbproj.CopyComplete
 C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\APP_TELERIK.dll
 C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\APP_TELERIK.xml
 C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\APP_TELERIK.pdb
-C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\APP_TELERIK.vbproj.AssemblyReference.cache
+C:\Users\torne\source\repos\AppPruebaVB\APP_TELERIK\obj\Debug\APP_TELE.425DD5C5.Up2Date

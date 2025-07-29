@@ -35,6 +35,23 @@
         }
       }
     },
+    ".NETFramework,Version=v4.8/win-arm64": {
+      "jQuery/3.7.1": {
+        "type": "package"
+      },
+      "Telerik.Licensing/1.6.9": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Telerik.Licensing.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Telerik.Licensing.Runtime.dll": {}
+        },
+        "build": {
+          "build/Telerik.Licensing.targets": {}
+        }
+      }
+    },
     ".NETFramework,Version=v4.8/win-x64": {
       "jQuery/3.7.1": {
         "type": "package"
@@ -151,6 +168,7 @@
       "outputPath": "C:\\Users\\torne\\source\\repos\\AppPruebaVB\\APP_TELERIK\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
@@ -170,6 +188,11 @@
         "net48": {
           "projectReferences": {}
         }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -188,6 +211,9 @@
     },
     "runtimes": {
       "win": {
+        "#import": []
+      },
+      "win-arm64": {
         "#import": []
       },
       "win-x64": {
