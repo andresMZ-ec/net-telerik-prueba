@@ -1,0 +1,27 @@
+name: Despliegue a producción de documentación
+
+on:
+  push:
+    branches:
+      - docs
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Construir documentación
+        run: npm run build
+
+      - name: Desplegar a producción
+        run: npm run deploy
