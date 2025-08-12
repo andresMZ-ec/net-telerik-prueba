@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	site: 'https://andresmz-ec.github.io/net-telerik-prueba/',
 	base: '/net-telerik-prueba',
-	outDir: './dist',
+	outDir: './docs',
 	integrations: [
 		starlight({
 			title: 'Bilbo S.A',
