@@ -1,5 +1,7 @@
 ﻿<%@ Page Title="About" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.vb" Inherits="DomusAPP.About" %>
 
+<%@ Register Src="~/Content/Componentes/NotificacionPrueba.ascx" TagPrefix="ui" TagName="Notificacion" %>
+
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
     <p>Your app description page.</p>
@@ -16,4 +18,6 @@
     <asp:Button ID="btnEliminar" runat="server" Text="Eliminar"
         OnClick="btnEliminar_Click"
         OnClientClick="return mostrarConfirmacion(this, '¿Desea eliminar este registro?');" />
+
+    <ui:Notificacion ID="rNotif" runat="server" />
 </asp:Content>

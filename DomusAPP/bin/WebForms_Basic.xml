@@ -64,6 +64,69 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:DomusAPP.About._rNotif">
+<summary>
+Control rNotif.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.FiltroGrid._BuscadorGlobal">
+<summary>
+Control BuscadorGlobal.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.FiltroGrid._btnMostrarFiltro">
+<summary>
+Control btnMostrarFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.FiltroGrid._upFiltro">
+<summary>
+Control upFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.FiltroGrid._phFiltro">
+<summary>
+Control phFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.FiltroGrid._CerrarFiltros">
+<summary>
+Control CerrarFiltros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.FiltroGrid._FiltroBody">
+<summary>
+Control FiltroBody.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:DomusAPP.iconos_svg._containerRender">
 <summary>
 Control containerRender.
@@ -190,6 +253,33 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:DomusAPP.NotificacionPrueba._RadNotificationGLObal">
+<summary>
+Control RadNotificationGLObal.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.productos._filtroGrid">
+<summary>
+Control filtroGrid.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.productos._rgPrueba">
+<summary>
+Control rgPrueba.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:DomusAPP.SiteMaster._Notificacion">
 <summary>
 Control Notificacion.
@@ -271,6 +361,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:DomusAPP.Site_Mobile._ViewSwitcher1">
 <summary>
 Control ViewSwitcher1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.NotFound._form1">
+<summary>
+Control form1.
 </summary>
 <remarks>
 Campo generado automáticamente.

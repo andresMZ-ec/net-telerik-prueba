@@ -11,41 +11,23 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class About
+Partial Public Class productos
 
     '''<summary>
-    '''Control btnPus.
+    '''Control filtroGrid.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnPus As Global.Telerik.Web.UI.RadButton
+    Protected WithEvents filtroGrid As Global.DomusAPP.FiltroGrid
 
     '''<summary>
-    '''Control btnPrint.
+    '''Control rgPrueba.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnPrint As Global.Telerik.Web.UI.RadButton
-
-    '''<summary>
-    '''Control btnEliminar.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnEliminar As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Control rNotif.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents rNotif As Global.DomusAPP.NotificacionPrueba
+    Protected WithEvents rgPrueba As Global.Telerik.Web.UI.RadGrid
 End Class

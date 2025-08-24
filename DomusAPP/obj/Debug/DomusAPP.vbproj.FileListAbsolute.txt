@@ -1,3 +1,6 @@
+C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\obj\Debug\DomusAPP.Resources.resources
+C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\obj\Debug\DomusAPP.vbproj.GenerateResource.cache
+C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\obj\Debug\DomusAPP.vbproj.CoreCompileInputs.cache
 C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\bin\DomusAPP.dll.config
 C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\bin\DomusAPP.dll
 C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\bin\DomusAPP.pdb
@@ -88,11 +91,8 @@ C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\bin\Telerik.Windows.Documents.
 C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\bin\Telerik.Windows.Documents.DrawingML.xml
 C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\bin\es\System.Web.Optimization.resources.dll
 C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
-C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\obj\Debug\DomusAPP.vbproj.AssemblyReference.cache
-C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\obj\Debug\DomusAPP.Resources.resources
-C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\obj\Debug\DomusAPP.vbproj.GenerateResource.cache
-C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\obj\Debug\DomusAPP.vbproj.CoreCompileInputs.cache
 C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\obj\Debug\DomusAPP.vbproj.CopyComplete
 C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\obj\Debug\DomusAPP.dll
 C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\obj\Debug\WebForms_Basic.xml
 C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\obj\Debug\DomusAPP.pdb
+C:\Users\torne\Development\.Net\DomusAPP\DomusAPP\obj\Debug\DomusAPP.vbproj.AssemblyReference.cache

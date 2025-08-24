@@ -34,6 +34,7 @@
     <OutputPath>bin\</OutputPath>
     <DocumentationFile>WebForms_Basic.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -148,9 +149,11 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Componentes\FiltroGrid.ascx" />
     <Content Include="Content\Componentes\Iconos_SVG.ascx" />
     <Content Include="Content\Componentes\ModalConfirmacion.ascx" />
     <Content Include="Content\Componentes\Notificacion.ascx" />
+    <Content Include="Content\Componentes\NotificacionPrueba.ascx" />
     <Content Include="Content\global-fonts.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
@@ -172,10 +175,14 @@
     <Content Include="fonts\Manrope-Medium.ttf" />
     <Content Include="fonts\Manrope-Regular.ttf" />
     <Content Include="fonts\Manrope-SemiBold.ttf" />
+    <Content Include="NotFound.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="index.aspx" />
+    <Content Include="productos.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\chart.js" />
+    <Content Include="Scripts\chart.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -223,6 +230,13 @@
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Content\Componentes\FiltroGrid.ascx.designer.vb">
+      <DependentUpon>FiltroGrid.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Componentes\FiltroGrid.ascx.vb">
+      <DependentUpon>FiltroGrid.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Content\Componentes\Iconos_SVG.ascx.designer.vb">
       <DependentUpon>Iconos_SVG.ascx</DependentUpon>
     </Compile>
@@ -242,6 +256,13 @@
     </Compile>
     <Compile Include="Content\Componentes\Notificacion.ascx.vb">
       <DependentUpon>Notificacion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Componentes\NotificacionPrueba.ascx.designer.vb">
+      <DependentUpon>NotificacionPrueba.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Componentes\NotificacionPrueba.ascx.vb">
+      <DependentUpon>NotificacionPrueba.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.vb">
@@ -280,6 +301,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="productos.aspx.designer.vb">
+      <DependentUpon>productos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productos.aspx.vb">
+      <DependentUpon>productos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
@@ -300,6 +328,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.vb">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="NotFound.aspx.designer.vb">
+      <DependentUpon>NotFound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NotFound.aspx.vb">
+      <DependentUpon>NotFound.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
