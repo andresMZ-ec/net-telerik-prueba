@@ -13,6 +13,7 @@ Public Class Global_asax
     Private Sub RegisterRoutes(routes As RouteCollection)
         routes.MapPageRoute("ProductosRoute", "productos", "~/productos.aspx")
         routes.MapPageRoute("DefaultRoute", "", "~/Default.aspx")
+        routes.MapPageRoute("PreciosRoute", "precios", "~/Precios.aspx")
 
         ' Ruta para páginas eliminadas o no existen (No eliminar)
         routes.MapPageRoute("NotFound", "{*url}", "~/NotFound.aspx")

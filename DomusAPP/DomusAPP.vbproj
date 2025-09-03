@@ -149,6 +149,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Componentes\DialogClaude.ascx" />
     <Content Include="Content\Componentes\FiltroGrid.ascx" />
     <Content Include="Content\Componentes\Iconos_SVG.ascx" />
     <Content Include="Content\Componentes\ModalConfirmacion.ascx" />
@@ -178,6 +179,7 @@
     <Content Include="NotFound.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="index.aspx" />
+    <Content Include="Precios.aspx" />
     <Content Include="productos.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -230,6 +232,13 @@
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Content\Componentes\DialogClaude.ascx.designer.vb">
+      <DependentUpon>DialogClaude.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Componentes\DialogClaude.ascx.vb">
+      <DependentUpon>DialogClaude.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Content\Componentes\FiltroGrid.ascx.designer.vb">
       <DependentUpon>FiltroGrid.ascx</DependentUpon>
     </Compile>
@@ -237,6 +246,7 @@
       <DependentUpon>FiltroGrid.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="App_Code\Content\Componentes\GridActions.vb" />
     <Compile Include="Content\Componentes\Iconos_SVG.ascx.designer.vb">
       <DependentUpon>Iconos_SVG.ascx</DependentUpon>
     </Compile>
@@ -244,6 +254,8 @@
       <DependentUpon>Iconos_SVG.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="App_Code\Content\Componentes\ItemButton.vb" />
+    <Compile Include="App_Code\Content\Componentes\ItemButtonCollection.vb" />
     <Compile Include="Content\Componentes\ModalConfirmacion.ascx.designer.vb">
       <DependentUpon>ModalConfirmacion.ascx</DependentUpon>
     </Compile>
@@ -300,6 +312,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Precios.aspx.designer.vb">
+      <DependentUpon>Precios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Precios.aspx.vb">
+      <DependentUpon>Precios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="productos.aspx.designer.vb">
       <DependentUpon>productos.aspx</DependentUpon>

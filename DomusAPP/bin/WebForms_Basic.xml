@@ -73,6 +73,51 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:DomusAPP.DialogClaude._pnlDialog">
+<summary>
+Control pnlDialog.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.DialogClaude._lblTitulo">
+<summary>
+Control lblTitulo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.DialogClaude._lblDescripcion">
+<summary>
+Control lblDescripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.DialogClaude._btnConfirmar">
+<summary>
+Control btnConfirmar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.DialogClaude._btnCancelar">
+<summary>
+Control btnCancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:DomusAPP.FiltroGrid._BuscadorGlobal">
 <summary>
 Control BuscadorGlobal.
@@ -256,6 +301,24 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:DomusAPP.NotificacionPrueba._RadNotificationGLObal">
 <summary>
 Control RadNotificationGLObal.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.Precios._btnTest">
+<summary>
+Control btnTest.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.Precios._gridActions">
+<summary>
+Control gridActions.
 </summary>
 <remarks>
 Campo generado automáticamente.
