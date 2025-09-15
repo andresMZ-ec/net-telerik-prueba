@@ -21,4 +21,22 @@ Partial Public Class Precios
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btnTest As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control up1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents up1 As Global.DomusAPP.Upload
+
+    '''<summary>
+    '''Control up2.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents up2 As Global.DomusAPP.Upload
 End Class

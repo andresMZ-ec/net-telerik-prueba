@@ -1,4 +1,6 @@
-﻿Imports System.Web.Optimization
+﻿Imports System.IO
+Imports System.Web.Optimization
+Imports Telerik.Web.UI.Widgets
 
 Public Class Global_asax
     Inherits HttpApplication
@@ -9,6 +11,7 @@ Public Class Global_asax
         BundleConfig.RegisterBundles(BundleTable.Bundles)
         RegisterRoutes(RouteTable.Routes)
     End Sub
+
 
     Private Sub RegisterRoutes(routes As RouteCollection)
         routes.MapPageRoute("ProductosRoute", "productos", "~/productos.aspx")

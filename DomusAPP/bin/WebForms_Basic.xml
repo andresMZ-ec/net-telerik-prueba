@@ -307,6 +307,51 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:DomusAPP.Upload._upUpload">
+<summary>
+Control upUpload.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.Upload._btnFileUpload">
+<summary>
+Control btnFileUpload.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.Upload._fileInputUpload">
+<summary>
+Control fileInputUpload.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.Upload._btnProcessFiles">
+<summary>
+Control btnProcessFiles.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.Upload._rptArchivos">
+<summary>
+Control rptArchivos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:DomusAPP.Precios._btnTest">
 <summary>
 Control btnTest.
@@ -316,9 +361,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:DomusAPP.Precios._gridActions">
+<member name="F:DomusAPP.Precios._up1">
 <summary>
-Control gridActions.
+Control up1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.Precios._up2">
+<summary>
+Control up2.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -337,6 +391,42 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:DomusAPP.productos._rgPrueba">
 <summary>
 Control rgPrueba.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.PruebaUpload._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.PruebaUpload._ScriptManager1">
+<summary>
+Control ScriptManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.PruebaUpload._up1">
+<summary>
+Control up1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.PruebaUpload._btnVer">
+<summary>
+Control btnVer.
 </summary>
 <remarks>
 Campo generado automáticamente.

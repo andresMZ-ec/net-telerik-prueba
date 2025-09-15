@@ -157,6 +157,8 @@
     <Content Include="Content\Componentes\NotificacionPrueba.ascx" />
     <Content Include="Content\global-fonts.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\Upload.ascx" />
+    <Content Include="Content\Upload1.asmx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -177,10 +179,12 @@
     <Content Include="fonts\Manrope-Regular.ttf" />
     <Content Include="fonts\Manrope-SemiBold.ttf" />
     <Content Include="NotFound.aspx" />
+    <Content Include="Content\CleanTempHandler.ashx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="index.aspx" />
     <Content Include="Precios.aspx" />
     <Content Include="productos.aspx" />
+    <Content Include="PruebaUpload.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\chart.js" />
@@ -190,6 +194,7 @@
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\Upload.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
@@ -231,6 +236,9 @@
     <Compile Include="Contact.aspx.vb">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Content\CleanTempHandler.ashx.vb">
+      <DependentUpon>CleanTempHandler.ashx</DependentUpon>
     </Compile>
     <Compile Include="Content\Componentes\DialogClaude.ascx.designer.vb">
       <DependentUpon>DialogClaude.ascx</DependentUpon>
@@ -276,6 +284,17 @@
     <Compile Include="Content\Componentes\NotificacionPrueba.ascx.vb">
       <DependentUpon>NotificacionPrueba.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Upload.ascx.designer.vb">
+      <DependentUpon>Upload.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Upload.ascx.vb">
+      <DependentUpon>Upload.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Upload1.asmx.vb">
+      <DependentUpon>Upload1.asmx</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Default.aspx.vb">
       <SubType>ASPXCodeBehind</SubType>
@@ -327,12 +346,22 @@
       <DependentUpon>productos.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="PruebaUpload.aspx.designer.vb">
+      <DependentUpon>PruebaUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PruebaUpload.aspx.vb">
+      <DependentUpon>PruebaUpload.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.vb">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadHandler.ashx.vb">
+      <DependentUpon>UploadHandler.ashx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.vb">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -380,6 +409,7 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <Content Include="UploadHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

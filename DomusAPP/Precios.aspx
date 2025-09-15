@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="Precios.aspx.vb" Inherits="DomusAPP.Precios" %>
 
 <%@ Register TagPrefix="custom" Namespace="DomusAPP.Content.Componentes" %>
+<%@ Register Src="~/Content/Upload.ascx" TagPrefix="custom" TagName="Upload" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -17,7 +18,8 @@
 
 
     <asp:Button ID="btnTest" runat="server" Text="Mostrar Confirmación" OnClick="btnTest_Click" />
-
+    <custom:Upload ID="up1" runat="server" />
+    <custom:Upload ID="up2" runat="server" />
 
     <custom:GridActions runat="server">
         <items>
@@ -25,10 +27,6 @@
             <custom:ItemButton runat="server" Texto="Habilitar" CssClass="btn-sm" />
         </items>
     </custom:GridActions>
-
-
-    <div>
-    </div>
 
     <%--<telerik:RadGrid
         ID="RadGrid1"
