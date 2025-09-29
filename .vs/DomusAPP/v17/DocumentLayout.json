@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBE5E59-3EB5-46DD-B630-3F89F9FE0FC5}|MAUI\\MAUI.csproj|c:\\users\\torne\\development\\.net\\domusapp\\maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9BBE5E59-3EB5-46DD-B630-3F89F9FE0FC5}|MAUI\\MAUI.csproj|solutionrelative:maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBE5E59-3EB5-46DD-B630-3F89F9FE0FC5}|MAUI\\MAUI.csproj|c:\\users\\torne\\development\\.net\\domusapp\\maui\\controls\\datepicker.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBE5E59-3EB5-46DD-B630-3F89F9FE0FC5}|MAUI\\MAUI.csproj|solutionrelative:maui\\controls\\datepicker.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBE5E59-3EB5-46DD-B630-3F89F9FE0FC5}|MAUI\\MAUI.csproj|c:\\users\\torne\\development\\.net\\domusapp\\maui\\controls\\datepicker.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9BBE5E59-3EB5-46DD-B630-3F89F9FE0FC5}|MAUI\\MAUI.csproj|solutionrelative:maui\\controls\\datepicker.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBE5E59-3EB5-46DD-B630-3F89F9FE0FC5}|MAUI\\MAUI.csproj|c:\\users\\torne\\development\\.net\\domusapp\\maui\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9BBE5E59-3EB5-46DD-B630-3F89F9FE0FC5}|MAUI\\MAUI.csproj|solutionrelative:maui\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBE5E59-3EB5-46DD-B630-3F89F9FE0FC5}|MAUI\\MAUI.csproj|c:\\users\\torne\\development\\.net\\domusapp\\maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBE5E59-3EB5-46DD-B630-3F89F9FE0FC5}|MAUI\\MAUI.csproj|solutionrelative:maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBE5E59-3EB5-46DD-B630-3F89F9FE0FC5}|MAUI\\MAUI.csproj|c:\\users\\torne\\development\\.net\\domusapp\\maui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9BBE5E59-3EB5-46DD-B630-3F89F9FE0FC5}|MAUI\\MAUI.csproj|solutionrelative:maui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\torne\\AppData\\Local\\Temp\\.vsdbgsrc\\58b3a5dae793e41e2047e91ddda0a9e490ca8d72\\Resources_Styles_Styles.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatePicker.xaml",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\MAUI\\Controls\\DatePicker.xaml",
+              "RelativeDocumentMoniker": "MAUI\\Controls\\DatePicker.xaml",
+              "ToolTip": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\MAUI\\Controls\\DatePicker.xaml",
+              "RelativeToolTip": "MAUI\\Controls\\DatePicker.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-28T21:52:50.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\MAUI\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MAUI\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\MAUI\\MauiProgram.cs",
+              "RelativeToolTip": "MAUI\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAEwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T21:09:48.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\MAUI\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MAUI\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\MAUI\\MainPage.xaml",
+              "RelativeToolTip": "MAUI\\MainPage.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-28T20:48:11.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatePicker.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\MAUI\\Controls\\DatePicker.xaml.cs",
+              "RelativeDocumentMoniker": "MAUI\\Controls\\DatePicker.xaml.cs",
+              "ToolTip": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\MAUI\\Controls\\DatePicker.xaml.cs",
+              "RelativeToolTip": "MAUI\\Controls\\DatePicker.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T21:53:35.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\MAUI\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "MAUI\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\MAUI\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "MAUI\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAlwDAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-28T19:40:08.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Resources_Styles_Styles.xaml.sg.cs",
+              "DocumentMoniker": "C:\\Users\\torne\\AppData\\Local\\Temp\\.vsdbgsrc\\58b3a5dae793e41e2047e91ddda0a9e490ca8d72\\Resources_Styles_Styles.xaml.sg.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\58b3a5dae793e41e2047e91ddda0a9e490ca8d72\\Resources_Styles_Styles.xaml.sg.cs",
+              "ToolTip": "C:\\Users\\torne\\AppData\\Local\\Temp\\.vsdbgsrc\\58b3a5dae793e41e2047e91ddda0a9e490ca8d72\\Resources_Styles_Styles.xaml.sg.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\58b3a5dae793e41e2047e91ddda0a9e490ca8d72\\Resources_Styles_Styles.xaml.sg.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwBkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T18:48:00.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\MAUI\\App.xaml",
+              "RelativeDocumentMoniker": "MAUI\\App.xaml",
+              "ToolTip": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\MAUI\\App.xaml",
+              "RelativeToolTip": "MAUI\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-21T18:28:19.803Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VrIkdzC+tRo=",
+  "dgSpecHash": "ojVbEwZzj0Y=",
   "success": true,
   "projectFilePath": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\MAUI\\MAUI.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "C:\\Users\\torne\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\9.0.82\\microsoft.maui.graphics.win2d.winui.desktop.9.0.82.nupkg.sha512",
     "C:\\Users\\torne\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.82\\microsoft.maui.resizetizer.9.0.82.nupkg.sha512",
     "C:\\Users\\torne\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.9\\microsoft.net.illink.tasks.9.0.9.nupkg.sha512",
+    "C:\\Users\\torne\\.nuget\\packages\\microsoft.ui.xaml\\2.8.7\\microsoft.ui.xaml.2.8.7.nupkg.sha512",
     "C:\\Users\\torne\\.nuget\\packages\\microsoft.web.webview2\\1.0.3179.45\\microsoft.web.webview2.1.0.3179.45.nupkg.sha512",
     "C:\\Users\\torne\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\torne\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250513003\\microsoft.windowsappsdk.1.7.250513003.nupkg.sha512",

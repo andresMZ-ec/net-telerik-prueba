@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MAUI.MainPage">
+             x:Class="MAUI.MainPage"
+             
+             xmlns:controls="clr-namespace:MAUI.Controls">
 
     <ScrollView>
         <VerticalStackLayout
@@ -12,7 +14,17 @@
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a hovercraft number nine" />
+            <DatePicker
+                x:Name="dpFechaInicio"
+                MinimumDate="01/01/2025"
+                MaximumDate="12/31/2025"/>
 
+            <controls:DatePicker
+                x:Name="dpFechaFin"
+                MinimumDate="{Binding Source={x:Reference dpFechaInicio}, Path=Date}"
+                MaximumDate="12/31/2025"
+                DateFormat="MMMM dd, yyyy"/>
+            
             <Label
                 Text="Hello, World!"
                 Style="{StaticResource Headline}"
