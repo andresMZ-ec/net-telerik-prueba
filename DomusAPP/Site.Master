@@ -4,11 +4,11 @@
 <%@ Register Src="~/Content/Componentes/ModalConfirmacion.ascx" TagPrefix="ui" TagName="Confirmacion" %>
 
 <!DOCTYPE html>
-
 <html lang="es">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
+    <link rel="manifest" href="/manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - DomusData</title>
 
@@ -20,7 +20,14 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="Content/global-fonts.css" rel="stylesheet" />
     <link href="Content/global.css" rel="stylesheet" />
-
+    <script type="text/javascript">
+        navigator.serviceWorker.register('/service-worker.js')
+            .then(function (registration) {
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }).catch(function (err) {
+                console.log('ServiceWorker registration failed: ', err);
+            });
+    </script>
 </head>
 <body>
     <form runat="server">

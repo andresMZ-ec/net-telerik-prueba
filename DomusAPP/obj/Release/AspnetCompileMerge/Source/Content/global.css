@@ -1,0 +1,18 @@
+﻿/*  FUENTES */
+body {
+    font-family: 'Manrope', sans-serif !important;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*
+    ESTILOS PARA BOTONES DE TELERIK
+*/
+.RadButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;    
+}
+.RadButton > span{
+    font-weight: 600;
+}
