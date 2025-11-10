@@ -14,6 +14,15 @@ Option Explicit On
 Partial Public Class SiteMaster
 
     '''<summary>
+    '''Control scriptTelerik.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents scriptTelerik As Global.Telerik.Web.UI.RadScriptManager
+
+    '''<summary>
     '''Control Notificacion.
     '''</summary>
     '''<remarks>

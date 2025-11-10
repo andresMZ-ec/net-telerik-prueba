@@ -1,14 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\",
+  "WorkspaceRootPath": "C:\\Users\\torne\\Development\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|c:\\users\\torne\\development\\.net\\domusapp\\domusapp\\content\\componentes\\filtergrid.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
-      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\content\\componentes\\filtergrid.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|C:\\Users\\torne\\Development\\domusapp\\analisis_prueba\\usercontrol\\uc_prueba.ascx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\analisis_prueba\\usercontrol\\uc_prueba.ascx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|c:\\users\\torne\\development\\.net\\domusapp\\domusapp\\content\\componentes\\filtergrid.ascx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\content\\componentes\\filtergrid.ascx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|c:\\users\\torne\\development\\domusapp\\scripts\\componentes\\balanza.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\scripts\\componentes\\balanza.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|c:\\users\\torne\\development\\domusapp\\handlers\\balanzaservice.asmx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\handlers\\balanzaservice.asmx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|c:\\users\\torne\\development\\domusapp\\handlers\\balanzaservice.asmx||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\handlers\\balanzaservice.asmx||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|c:\\users\\torne\\development\\domusapp\\scripts\\upload.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\scripts\\upload.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|C:\\Users\\torne\\Development\\domusapp\\analisis_prueba\\usercontrol\\uc_prueba.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\analisis_prueba\\usercontrol\\uc_prueba.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|c:\\users\\torne\\development\\domusapp\\scripts\\balanzaservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\scripts\\balanzaservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|c:\\users\\torne\\development\\domusapp\\app_code\\content\\componentes\\itembutton.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\app_code\\content\\componentes\\itembutton.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|c:\\users\\torne\\development\\domusapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|C:\\Users\\torne\\Development\\domusapp\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|c:\\users\\torne\\development\\domusapp\\viewswitcher.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\viewswitcher.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|C:\\Users\\torne\\Development\\domusapp\\analisis_prueba\\view_analisis.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\analisis_prueba\\view_analisis.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|C:\\Users\\torne\\Development\\domusapp\\analisis_prueba\\view_analisis.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\analisis_prueba\\view_analisis.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|C:\\Users\\torne\\Development\\domusapp\\content\\global-fonts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\content\\global-fonts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|C:\\Users\\torne\\Development\\domusapp\\app_start\\routeconfig.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|DomusAPP\\DomusAPP.vbproj|solutionrelative:domusapp\\app_start\\routeconfig.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +69,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 228,
+          "DockedWidth": 249,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -26,29 +78,201 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BalanzaService.ts",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\Scripts\\BalanzaService.ts",
+              "RelativeDocumentMoniker": "DomusAPP\\Scripts\\BalanzaService.ts",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\Scripts\\BalanzaService.ts",
+              "RelativeToolTip": "DomusAPP\\Scripts\\BalanzaService.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-09T22:29:56.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FilterGrid.ascx.vb",
-              "DocumentMoniker": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\DomusAPP\\Content\\Componentes\\FilterGrid.ascx.vb",
-              "RelativeDocumentMoniker": "DomusAPP\\Content\\Componentes\\FilterGrid.ascx.vb",
-              "ToolTip": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\DomusAPP\\Content\\Componentes\\FilterGrid.ascx.vb",
-              "RelativeToolTip": "DomusAPP\\Content\\Componentes\\FilterGrid.ascx.vb",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAgwJ8AAAAkAAAAAAAAAA==",
+              "Title": "Balanza.js",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\Scripts\\Componentes\\Balanza.js",
+              "RelativeDocumentMoniker": "DomusAPP\\Scripts\\Componentes\\Balanza.js",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\Scripts\\Componentes\\Balanza.js",
+              "RelativeToolTip": "DomusAPP\\Scripts\\Componentes\\Balanza.js",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-09T16:20:41.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "uc_prueba.ascx",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\ANALISIS_PRUEBA\\UserControl\\uc_prueba.ascx",
+              "RelativeDocumentMoniker": "DomusAPP\\ANALISIS_PRUEBA\\UserControl\\uc_prueba.ascx",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\ANALISIS_PRUEBA\\UserControl\\uc_prueba.ascx",
+              "RelativeToolTip": "DomusAPP\\ANALISIS_PRUEBA\\UserControl\\uc_prueba.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-11-09T16:16:16.192Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 207,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\Site.Master",
+              "RelativeDocumentMoniker": "DomusAPP\\Site.Master",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\Site.Master",
+              "RelativeToolTip": "DomusAPP\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-09T16:29:33.504Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BalanzaService.asmx.vb",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\Handlers\\BalanzaService.asmx.vb",
+              "RelativeDocumentMoniker": "DomusAPP\\Handlers\\BalanzaService.asmx.vb",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\Handlers\\BalanzaService.asmx.vb",
+              "RelativeToolTip": "DomusAPP\\Handlers\\BalanzaService.asmx.vb",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBgAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-03T15:34:48.032Z",
+              "WhenOpened": "2025-11-09T21:03:56.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FilterGrid.ascx",
-              "DocumentMoniker": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\DomusAPP\\Content\\Componentes\\FilterGrid.ascx",
-              "RelativeDocumentMoniker": "DomusAPP\\Content\\Componentes\\FilterGrid.ascx",
-              "ToolTip": "C:\\Users\\torne\\Development\\.Net\\DomusAPP\\DomusAPP\\Content\\Componentes\\FilterGrid.ascx",
-              "RelativeToolTip": "DomusAPP\\Content\\Componentes\\FilterGrid.ascx",
+              "Title": "uc_prueba.ascx.vb",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\ANALISIS_PRUEBA\\UserControl\\uc_prueba.ascx.vb",
+              "RelativeDocumentMoniker": "DomusAPP\\ANALISIS_PRUEBA\\UserControl\\uc_prueba.ascx.vb",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\ANALISIS_PRUEBA\\UserControl\\uc_prueba.ascx.vb",
+              "RelativeToolTip": "DomusAPP\\ANALISIS_PRUEBA\\UserControl\\uc_prueba.ascx.vb",
+              "ViewState": "AgIAABwAAAAAAAAAAADgvyYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-09T16:16:19.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BalanzaService.asmx",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\Handlers\\BalanzaService.asmx",
+              "RelativeDocumentMoniker": "DomusAPP\\Handlers\\BalanzaService.asmx",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\Handlers\\BalanzaService.asmx",
+              "RelativeToolTip": "DomusAPP\\Handlers\\BalanzaService.asmx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003504|",
+              "WhenOpened": "2025-11-09T21:13:41.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Upload.js",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\Scripts\\Upload.js",
+              "RelativeDocumentMoniker": "DomusAPP\\Scripts\\Upload.js",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\Scripts\\Upload.js",
+              "RelativeToolTip": "DomusAPP\\Scripts\\Upload.js",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-09T22:23:55.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemButton.vb",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\App_Code\\Content\\Componentes\\ItemButton.vb",
+              "RelativeDocumentMoniker": "DomusAPP\\App_Code\\Content\\Componentes\\ItemButton.vb",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\App_Code\\Content\\Componentes\\ItemButton.vb",
+              "RelativeToolTip": "DomusAPP\\App_Code\\Content\\Componentes\\ItemButton.vb",
+              "ViewState": "AgIAABkAAAAAAAAAAAD4vyIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-09T22:04:35.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ViewSwitcher.ascx",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\ViewSwitcher.ascx",
+              "RelativeDocumentMoniker": "DomusAPP\\ViewSwitcher.ascx",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\ViewSwitcher.ascx",
+              "RelativeToolTip": "DomusAPP\\ViewSwitcher.ascx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2025-11-03T15:31:10.662Z",
+              "WhenOpened": "2025-11-09T21:06:26.612Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "view_analisis.aspx.vb",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\ANALISIS_PRUEBA\\view_analisis.aspx.vb",
+              "RelativeDocumentMoniker": "DomusAPP\\ANALISIS_PRUEBA\\view_analisis.aspx.vb",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\ANALISIS_PRUEBA\\view_analisis.aspx.vb",
+              "RelativeToolTip": "DomusAPP\\ANALISIS_PRUEBA\\view_analisis.aspx.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-09T17:00:49.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\Web.config",
+              "RelativeDocumentMoniker": "DomusAPP\\Web.config",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\Web.config",
+              "RelativeToolTip": "DomusAPP\\Web.config",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-09T21:26:54.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RouteConfig.vb",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\App_Start\\RouteConfig.vb",
+              "RelativeDocumentMoniker": "DomusAPP\\App_Start\\RouteConfig.vb",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\App_Start\\RouteConfig.vb",
+              "RelativeToolTip": "DomusAPP\\App_Start\\RouteConfig.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-09T16:47:01.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "global-fonts.css",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\Content\\global-fonts.css",
+              "RelativeDocumentMoniker": "DomusAPP\\Content\\global-fonts.css",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\Content\\global-fonts.css",
+              "RelativeToolTip": "DomusAPP\\Content\\global-fonts.css",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-09T16:40:01.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "view_analisis.aspx",
+              "DocumentMoniker": "C:\\Users\\torne\\Development\\DomusAPP\\ANALISIS_PRUEBA\\view_analisis.aspx",
+              "RelativeDocumentMoniker": "DomusAPP\\ANALISIS_PRUEBA\\view_analisis.aspx",
+              "ToolTip": "C:\\Users\\torne\\Development\\DomusAPP\\ANALISIS_PRUEBA\\view_analisis.aspx",
+              "RelativeToolTip": "DomusAPP\\ANALISIS_PRUEBA\\view_analisis.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-09T16:15:31.116Z"
             }
           ]
         }

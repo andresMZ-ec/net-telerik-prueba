@@ -37,6 +37,42 @@ DomusAPP
  Devuelve el objeto de registro Asp.
  </summary>
 </member>
+<member name="F:DomusAPP.uc_prueba._cboxSelectBalanza">
+<summary>
+Control cboxSelectBalanza.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.uc_prueba._btnSelectBalanza">
+<summary>
+Control btnSelectBalanza.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.uc_prueba._tboxPeso">
+<summary>
+Control tboxPeso.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.uc_prueba._RadComboBox1">
+<summary>
+Control RadComboBox1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:DomusAPP.About._btnPus">
 <summary>
 Control btnPus.
@@ -117,6 +153,47 @@ Control btnCancelar.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member>
+<member name="F:DomusAPP.FilterGrid._hfGridID">
+<summary>
+Control hfGridID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.FilterGrid._btnOpenFilter">
+<summary>
+Control btnOpenFilter.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:DomusAPP.FilterGrid._rpFilter">
+<summary>
+Control rpFilter.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="M:DomusAPP.FilterGrid.SetDataSource``1(``0)">
+ <summary>
+ Permite establecer la base de datos del filtro
+ </summary>
+ <typeparam name="T">Clase para identificar el tipo de datos de las columnas</typeparam>
+ <param name="value">Conjunto de datos</param>
+</member>
+<member name="M:DomusAPP.FilterGrid.SetFilterableColumns``1(System.String[])">
+ <summary>
+ Establece las columnas que serán filtrables en la Grid
+ </summary>
+ <typeparam name="T">Clase que contiene el DataSource de la grid</typeparam>
+ <param name="columns">Se especifica el nombre de la propiedad de la clase</param>
 </member>
 <member name="F:DomusAPP.FiltroGrid._BuscadorGlobal">
 <summary>
@@ -433,6 +510,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:DomusAPP.SiteMaster._scriptTelerik">
+<summary>
+Control scriptTelerik.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:DomusAPP.SiteMaster._Notificacion">
 <summary>
 Control Notificacion.
@@ -514,15 +600,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:DomusAPP.Site_Mobile._ViewSwitcher1">
 <summary>
 Control ViewSwitcher1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:DomusAPP.NotFound._form1">
-<summary>
-Control form1.
 </summary>
 <remarks>
 Campo generado automáticamente.

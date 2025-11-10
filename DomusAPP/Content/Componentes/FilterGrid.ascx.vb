@@ -123,7 +123,7 @@ Public Class FilterGrid
                         End If
                     End If
                 End If
-
+            End If
             ' Si no hay columnas, asignar las columnas del DataTable
         End Set
     End Property

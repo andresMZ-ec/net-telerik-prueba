@@ -85,17 +85,20 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Web.Design">
-      <HintPath>..\..\..\..\source\repos\AppPruebaVB\APP_TELERIK\bin\Telerik.Web.Design.dll</HintPath>
+    <Reference Include="Telerik.Web.Design, Version=2016.1.225.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Downloads\LibreriasTelerik\LibreriasTelerik\Telerik.Web.Design.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Web.Spreadsheet">
-      <HintPath>..\..\..\..\source\repos\AppPruebaVB\APP_TELERIK\bin\Telerik.Web.Spreadsheet.dll</HintPath>
+    <Reference Include="Telerik.Web.Device.Detection">
+      <HintPath>..\..\Downloads\LibreriasTelerik\LibreriasTelerik\Telerik.Web.Device.Detection.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Web.UI">
-      <HintPath>..\..\..\..\source\repos\AppPruebaVB\APP_TELERIK\bin\Telerik.Web.UI.dll</HintPath>
+    <Reference Include="Telerik.Web.UI, Version=2025.2.609.462, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Downloads\LibreriasTelerik\LibreriasTelerik\Telerik.Web.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Web.UI.Skins">
-      <HintPath>..\..\..\..\source\repos\AppPruebaVB\APP_TELERIK\bin\Telerik.Web.UI.Skins.dll</HintPath>
+    <Reference Include="Telerik.Web.UI.Skins, Version=2025.2.609.462, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Downloads\LibreriasTelerik\LibreriasTelerik\Telerik.Web.UI.Skins.dll</HintPath>
     </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
@@ -144,6 +147,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="ANALISIS_PRUEBA\UserControl\uc_prueba.ascx" />
+    <Content Include="ANALISIS_PRUEBA\view_analisis.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -181,7 +186,6 @@
     <Content Include="fonts\Manrope-SemiBold.ttf" />
     <Content Include="images\icon-192x192.png" />
     <Content Include="images\icon-512x512.png" />
-    <Content Include="NotFound.aspx" />
     <Content Include="Content\CleanTempHandler.ashx" />
     <Content Include="manifest.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -193,6 +197,9 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\chart.js" />
     <Content Include="Scripts\chart.min.js" />
+    <Content Include="Handlers\BalanzaService.asmx" />
+    <Content Include="Scripts\Componentes\Balanza.js" />
+    <Content Include="Scripts\Componentes\HtmlPage1.html" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -226,6 +233,20 @@
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ANALISIS_PRUEBA\UserControl\uc_prueba.ascx.designer.vb">
+      <DependentUpon>uc_prueba.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ANALISIS_PRUEBA\UserControl\uc_prueba.ascx.vb">
+      <DependentUpon>uc_prueba.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ANALISIS_PRUEBA\view_analisis.aspx.designer.vb">
+      <DependentUpon>view_analisis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ANALISIS_PRUEBA\view_analisis.aspx.vb">
+      <DependentUpon>view_analisis.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="About.aspx.designer.vb">
@@ -365,6 +386,10 @@
       <DependentUpon>PruebaUpload.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Handlers\BalanzaService.asmx.vb">
+      <DependentUpon>BalanzaService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
@@ -388,13 +413,6 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.vb">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
-    </Compile>
-    <Compile Include="NotFound.aspx.designer.vb">
-      <DependentUpon>NotFound.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="NotFound.aspx.vb">
-      <DependentUpon>NotFound.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -431,6 +449,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\BalanzaService.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

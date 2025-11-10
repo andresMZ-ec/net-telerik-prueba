@@ -19,6 +19,6 @@ Public Class Global_asax
         routes.MapPageRoute("PreciosRoute", "precios", "~/Precios.aspx")
 
         ' Ruta para páginas eliminadas o no existen (No eliminar)
-        routes.MapPageRoute("NotFound", "{*url}", "~/NotFound.aspx")
+        'routes.MapPageRoute("NotFound", "{*url}", "~/NotFound.aspx")
     End Sub
 End Class
