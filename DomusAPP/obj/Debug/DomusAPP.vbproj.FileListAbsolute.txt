@@ -183,3 +183,7 @@ C:\Users\torne\Development\DomusAPP\obj\Debug\DomusAPP.vbproj.Up2Date
 C:\Users\torne\Development\DomusAPP\obj\Debug\DomusAPP.dll
 C:\Users\torne\Development\DomusAPP\obj\Debug\WebForms_Basic.xml
 C:\Users\torne\Development\DomusAPP\obj\Debug\DomusAPP.pdb
+C:\Users\torne\Development\DomusAPP\bin\Select.Pdf.dll
+C:\Users\torne\Development\DomusAPP\bin\Select.Pdf.xml
+C:\Users\torne\Development\DomusAPP\bin\Select.Html.dep
+C:\Users\torne\Development\DomusAPP\bin\Select.Tools.dep

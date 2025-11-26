@@ -47,6 +47,9 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Select.Pdf, Version=25.2.0.0, Culture=neutral, PublicKeyToken=e0ae9f6e27a97018, processorArchitecture=MSIL">
+      <HintPath>..\packages\Select.Pdf.25.2.0\lib\net40\Select.Pdf.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -193,6 +196,7 @@
     <Content Include="Precios.aspx" />
     <Content Include="productos.aspx" />
     <Content Include="PruebaUpload.aspx" />
+    <Content Include="Templates\Prueba.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\chart.js" />
@@ -390,6 +394,7 @@
       <DependentUpon>BalanzaService.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reportes\ReportePrueba.vb" />
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>

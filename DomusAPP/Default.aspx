@@ -39,4 +39,9 @@
         </div>
     </div>
 
+    
+    <div class="row">
+        <telerik:RadButton ID="btnReporte" runat="server" Text="Reporte" OnClick="btnReporte_Click" AutoPostBack="true" />
+    </div>
+
 </asp:Content>
